@@ -20,3 +20,12 @@
 ## Recuperación del repositorio
 - En caso de error o pérdida de datos, se pueden recuperar commits anteriores desde el historial de Git.
 - Los colaboradores pueden clonar el repositorio en cualquier momento para mantener copias locales.
+
+## Resultados de las pruebas de permisos
+
+- **Read:** El usuario solo pudo ver el repositorio, sin posibilidad de modificar nada.  
+- **Write:** El usuario pudo subir cambios al repositorio, crear ramas y hacer commits.  
+- **Admin:** El usuario tuvo acceso completo (incluyendo gestión de permisos y configuración).  
+
+### Conclusión
+El rol más adecuado para un colaborador en un equipo de desarrollo es **Write**, mientras que el rol de **Admin** debe reservarse solo al responsable del proyecto.
